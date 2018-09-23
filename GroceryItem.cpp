@@ -14,34 +14,34 @@ GroceryItem::GroceryItem(const string&, const int&, const float&, const bool&) {
 }
 
 
-GroceryItem::getName() {
+string GroceryItem::getName() {
 	return _name;
 }
 
-GroceryItem::setName(const string&) {
+void GroceryItem::setName(const string&) {
 
 }
 
-GroceryItem::getQuantity() {
+int GroceryItem::getQuantity() {
 	return _quantity;
 }
 
-GroceryItem::setQuantity(const int&) {
+void GroceryItem::setQuantity(const int&) {
 
 }
 
-GroceryItem::getUnitPrice() {
+float GroceryItem::getUnitPrice() {
 	return _unitPrice;
 }
 
-GroceryItem::setUnitPrice(const float&) {
+void GroceryItem::setUnitPrice(const float&) {
 
 }
 
-GroceryItem::isTaxable() {
+bool GroceryItem::isTaxable() {
 	return _taxable;
 }
 
-GroceryItem::setTaxable(const bool) {
+void GroceryItem::setTaxable(const bool) {
 
 }
